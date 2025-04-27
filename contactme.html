@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href="contactme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="background">
+        <img src="contactme.avif">
+        <div class="main ">
+            <div class="first">
+                <span>CONTACT US</span>
+                <h4>Have a project in mind or need help bringing your website to life? Fill out the form below, and I’ll
+                    get back to you as soon as possible. Whether it’s a new website, redesign, or troubleshooting, I’m
+                    here to help!</h4>
+            </div>
+            <div class="second ">
+                <div class="sec_A ">
+                    <ul>
+                        <li><a href="">LinkedIn</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="sec_B">
+                    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+                    <form action="/" method="post" id="contactme">
+                        <input type="text" id="name" name="name" placeholder="Name" required>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <textarea id="message" name="message" placeholder="Enter Meassage" rows="4" required></textarea>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                    <script src="contactme.js"></script>
+                </div>
+            </div>
+            <button id="back" onclick="location.href='index.html'" >Back</button>
+        </div>
+    </main>
+
+</body>
+
+</html>

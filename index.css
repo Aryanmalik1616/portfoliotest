@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins;
+    background-color: rgb(219, 218, 244);
+}
+
+hr {
+    margin: 2vw;
+    border-radius: 2vw;
+    height: .2vw;
+    border: none;
+    background-color: rgb(112, 112, 183);
+}
+
+
+nav {
+    /* position:fixed; */
+    margin: 0vw 0vw 2vw 0vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(190, 188, 240);
+    height:5vw;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1.2vw;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.left { 
+    font-size: 2.5rem;
+    font-family: Special Gothic Expanded One;
+}
+
+.first {
+    height: 38vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftsection {
+    font-size: clamp(1rem, 2.2vw, 3rem);
+}
+
+.purple{
+    color: rgb(140, 136, 230);
+}
+
+#element{
+    color: rgb(140, 136, 230);
+}
+
+.rightsection {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second{
+    height: 40vw;
+    margin: 0vw 2vw ;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+
+.left2section{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right2section{
+    font-family: poppins;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    font-weight: 500;
+    font-size: clamp(.2rem, 1.2vw, 2rem);
+}
+
+.thirdsection{
+    margin: 0 4.3vw;
+    height: 37vw;
+}
+
+#text-grey{
+    color: grey;
+    font-size: .8rem;
+    font-weight: 600;
+    margin-left: 5vw;
+}
+
+
+.thirdsection h1{
+    margin-left: 5vw;
+}
+
+
+.thirdsection .box{
+    background-color: grey;
+    width: 80vw;
+    height: .2vw;
+    margin:  3vw 5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.thirdsection .verticle{
+    background-color: grey;
+    width: .2vw;
+    height: 6vw;
+}
+
+.verticle-title{
+    position: relative;
+    margin-top: 4.5vw;
+    margin-left: -6vw;
+    width: 14vw;
+    font-weight: 700;
+}
+
+.verticle-des{
+    color: grey;
+    position: relative;
+    margin-top: .5vw;
+    margin-left: -6vw;
+    font-size: .9vw;
+    width: 13vw;
+}
+
+
+.forthsection{
+    height: auto;
+}
+
+#skills{
+    color: grey;
+    margin: 0 47%;
+    font-size: 2vw;
+    font-family: Special Gothic Expanded One;
+}
+
+.skills{
+    margin: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills ul li{
+    margin: 2vw;    
+}
+
+
+.fifthsection{
+    height: auto;
+}
+
+#projects {
+    font-family: Special Gothic Expanded One;
+    color: gray;
+    font-size: 2vw;
+    margin: 0 46%;
+}
+
+.layout{
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    width: 40%;
+    height: 25vw;
+    margin: 1vw;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
+
+
+.cleft{
+    text-align: center;
+    width: 40%;
+    height: 70%;
+    overflow-wrap: normal;
+}
+
+.cleft span{
+    font-weight: 700;
+}
+
+.cright{
+    width: 50%;
+}
+
+.cright img{
+    position: absolute;
+    object-fit: contain;
+    width: 30vw;
+    height: 20vw;
+    margin-top: -11vw;
+    margin-left: -4vw
+}
+
+.cright_2 img{
+    position: absolute;
+    object-fit: cover;
+    width: 20vw;
+    height: 18vw;
+    margin-top: -11vw;
+    margin-left: 1vw;
+}
+
+.cright_3 img{
+    position: absolute;
+    object-fit: cover;
+    width: 22vw;
+    height: 18vw;
+    margin-top: -10vw;
+    margin-left: 1vw;
+}
+
+
+footer{
+    background-color: rgb(190, 188, 240);
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-first{
+    height: 15vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-first ul{
+    margin: 1.6vw;
+}
+
+.footer-first ul li{
+    margin-top: .3vw;
+}
+
+.footer-first ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-first ul li a:hover{
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.ending{
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+}
+.name{
+    font-size: 1.7vw;
+    width: 20vw;
+}
+
+.add{
+    list-style: none;
+}
+
+.contact{
+    list-style: none;   
+}
+
+.social{
+    list-style: none;
+    
+}
+
+/* .b{
+    border: 2px solid black;
+} */
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes yz{
+    from{
+        opacity: 0;
+        scale: 1.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes xy{
+    from{
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes hr{
+    from{
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+
+.first,
+.second,
+.card{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.thirdsection{
+    animation: yz linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.skills{
+    animation: xy 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+hr{
+    animation: hr 1s linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 10%; 
+}
+
+.footer-first ul li{
+    animation: xy linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 18%;
+}
